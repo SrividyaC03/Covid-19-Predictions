@@ -46,17 +46,17 @@ The dataset used in this project comprises daily updates on COVID-19 statistics 
    - Support Vector Machine (SVM): Chosen for its capability to manage high-dimensional spaces through kernel methods.
 
 5. Model Evaluation
-  - Performance Metrics: Evaluate model performance using Mean Squared Error (MSE) and R² scores.
-  - Feature Importance: Analyze the contribution of each feature to the model predictions.
-  - Classification Analysis: For binary outcomes (recovery vs. death), use F1-score and confusion matrices to assess model precision and recall.
+   - Performance Metrics: Evaluate model performance using Mean Squared Error (MSE) and R² scores.
+   - Feature Importance: Analyze the contribution of each feature to the model predictions.
+   - Classification Analysis: For binary outcomes (recovery vs. death), use F1-score and confusion matrices to assess model precision and recall.
 
 6. ETL Process Completion
 
     After transformation and analysis, the clean, processed data is saved to a CSV file, ensuring that it can be easily accessed for future analyses without the need to repeat preprocessing steps.
 
 7. Results and Model Insights
-  - Model Comparisons: Contrast the performance and feature importance of the Random Forest and SVM models.
-  - Outcome Predictions: Utilize the models to predict and classify the outcomes of COVID-19 cases based on the severity and spread within regions.
+   - Model Comparisons: Contrast the performance and feature importance of the Random Forest and SVM models.
+   - Outcome Predictions: Utilize the models to predict and classify the outcomes of COVID-19 cases based on the severity and spread within regions.
 
 ### Future Improvements
 - Incorporate More Data: As more data becomes available, including newer variants and vaccine data.
